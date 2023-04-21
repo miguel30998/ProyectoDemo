@@ -1,13 +1,33 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="Stylesheet" href="../frontend/css/centrar.css">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="center">
+    <div class ="element">
+      <img src="../frontend/img/logoCaser.jpeg" alt="Logo">
+      <form>
+        <input class="FormInputBox" type="email" id="email" name="email" placeholder="Correo Electronico" required>
+        <br>
+        <input class="FormInputBox" type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required></input>
+        <br>
+        <input type="button" id="button" class="SubmitData" onclick="javascript:loggin()"  value="Enviar"> 
+      </form>
+        <script>      
+          function loggin(){
+            location.href="loggin.html";
+            var a = document.getElementById("email").value;
+            console.log("hola");
+          }
+        </script>
+        <br>
+        <a class="center" href="https://www.google.com">¿No tienes cuenta?, crea una</a>
+    
+    </div>
+  </div>
 </body>
 </html>

@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.element {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 5%;
+}
+
+.FormInputBox {
+    border-radius: 4%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-bottom: 70px;
+}
+
+input.SubmitData {
+
+    background-color: #007bff; /* Color azul */
+    color: #000000; /* Texto blanco */
+}
