@@ -13,17 +13,20 @@ body, html {
 }
 
 .element {
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
+    position: relative;
+    top: 15%;
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
     background-color: white;
     border: solid 1px grey;
-    border-radius: 5%;
+    border-radius: 4%;
 }
 
 .FormInputBox {
-    border-radius: 4%;
+    position :relative;
+    left : 5%;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -31,7 +34,11 @@ body, html {
 }
 
 input.SubmitData {
-
+    position: relative;
+    left: 20px;
+    width: 150px;
+    justify-content: center;
+    border-radius: 12px;
     background-color: #007bff; /* Color azul */
     color: #000000; /* Texto blanco */
 }
