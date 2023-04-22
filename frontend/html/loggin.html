@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="Stylesheet" href="../css/loggin.css">
+    </head>
+    <body>
+        <div class="center">
+            <div class="element">
+                <img class="logo" src="../img/logoCaser.jpeg" alt="Logo">
+                <h1 class="DefaultFont">Bienvenido {PlazceHolderNombreUsuario}</h1>
+                <div class="buttons-container">
+                    <button id="ReservationButton" class="ReservationButton" value="Enviar" onclick="javascript:Booking()">Reservar</button>
+                    <script>      
+                        function Booking(){
+                          location.href="../index.html";
+                        }
+                      </script>
+                    <button id="ShowRervations" class="ShowRervations" value="Enviar" onclick="javascript:ShowReserves()">Mostrar Reservas</button>
+                    <script>      
+                        function ShowReserves(){
+                          location.href="../index.html";
+                        }
+                      </script>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
