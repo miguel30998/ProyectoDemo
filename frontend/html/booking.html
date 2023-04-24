@@ -7,6 +7,25 @@
         <link rel="Stylesheet" href="../css/booking.css">
     </head>
     <body> 
-        <h1>hola</h1>
+        <div class="container">
+            <div class="column">
+                <form>
+                    <h1 class="DefaultFont"> Realizar Reserva</h1>
+                    <input class="FormInputBox" type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required></input>
+                    <br>
+                    <input class="FormInputBox" type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                    <br>
+                    <input class="FormInputBox" type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required></input>
+                    <br>
+                    <input type="button" id="button" class="SubmitData" onclick="javascript:loggin()"  value="Enviar"> 
+                </form>
+            </div>
+                    <script>      
+                    function loggin(){
+                        location.href="../frontend/html/loggin.html";
+                    }
+                </script>
+            </div>
+        </div>
     </body>
 </html>
